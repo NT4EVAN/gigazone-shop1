@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giga Zone Electronics Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <header class="bg-blue-700 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">Giga Zone Electronics Shop</h1>
+      <nav class="space-x-6 space-x-reverse">
+        <a href="#products" class="hover:text-yellow-300">المنتجات</a>
+        <a href="#services" class="hover:text-yellow-300">الخدمات</a>
+        <a href="#contact" class="hover:text-yellow-300">اتصل بنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-blue-100 py-20 text-center">
+    <h2 class="text-3xl font-bold text-blue-800 mb-4">مرحبًا بك في Giga Zone</h2>
+    <p class="text-gray-700 mb-6">كل ما تحتاجه من مكونات إلكترونية عالية الجودة بأسعار مناسبة ودعم فني متميز.</p>
+    <a href="#products" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl">تصفح المنتجات</a>
+  </section>
+
+  <section id="products" class="container mx-auto py-16 px-6">
+    <h3 class="text-2xl font-bold text-center mb-10">منتجاتنا</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" class="h-32 mx-auto mb-4">
+        <h4 class="text-lg font-semibold mb-2">Arduino UNO</h4>
+        <p class="text-gray-600 mb-4">لوحة تطوير شهيرة لمشاريع الهواة والطلاب.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Raspberry_Pi_4_Model_B_-_Side.jpg" class="h-32 mx-auto mb-4">
+        <h4 class="text-lg font-semibold mb-2">Raspberry Pi 4</h4>
+        <p class="text-gray-600 mb-4">كمبيوتر مصغر لمشاريع إنترنت الأشياء.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HC-SR04_ultrasonic_sensor.jpg" class="h-32 mx-auto mb-4">
+        <h4 class="text-lg font-semibold mb-2">حساس المسافة HC-SR04</h4>
+        <p class="text-gray-600 mb-4">حساس يستخدم في الروبوتات ومشاريع القياس.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="services" class="bg-gray-50 py-16 px-6">
+    <h3 class="text-2xl font-bold text-center mb-10">خدماتنا</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <h4 class="text-lg font-semibold mb-2">دورات تدريبية</h4>
+        <p class="text-gray-600">ورش عمل في Arduino و IoT وتصميم الدوائر.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <h4 class="text-lg font-semibold mb-2">استشارات فنية</h4>
+        <p class="text-gray-600">مساعدة في تنفيذ المشاريع وحلول تقنية.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <h4 class="text-lg font-semibold mb-2">شحن سريع</h4>
+        <p class="text-gray-600">توصيل داخل المدينة وشحن لجميع المحافظات.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="container mx-auto py-16 px-6">
+    <h3 class="text-2xl font-bold text-center mb-10">اتصل بنا</h3>
+    <div class="bg-white rounded-2xl shadow-md p-8 max-w-lg mx-auto">
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="اسمك" class="w-full border rounded-lg px-4 py-2">
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" class="w-full border rounded-lg px-4 py-2">
+        <textarea name="message" rows="4" placeholder="رسالتك" class="w-full border rounded-lg px-4 py-2"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-blue-700 text-white text-center py-6">
+    <p>© 2025 جميع الحقوق محفوظة - Giga Zone Electronics Shop</p>
+  </footer>
+
+</body>
+</html>
